@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from './Header.js';
-import HomePage from '../pages/HomePage.js';
+import HomePage from '../pages/home/index.js';
 
 export default class App extends React.Component {
   constructor(props) {

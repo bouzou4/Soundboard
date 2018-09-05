@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import SoundTable from './components/SoundTable.js';
 
 export default class HomePage extends React.Component {
   constructor(props) {
@@ -8,7 +9,8 @@ export default class HomePage extends React.Component {
   render() {
     return(
       <div className="content">
-        <p>wassup homie</p>
+          <h1>Your Sounds</h1>
+          <SoundTable />
       </div>
     );
   }
